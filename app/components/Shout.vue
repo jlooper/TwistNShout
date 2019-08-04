@@ -190,6 +190,7 @@ export default {
 .label {
   font-family: Dosis, Dosis-Regular;
   font-weight: bold;
-  margin: 10;
+  margin-top: 10;
+  margin-bottom: 10;
 }
 </style>
