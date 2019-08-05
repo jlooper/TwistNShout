@@ -65,15 +65,12 @@ const actions = {
             }
         }
         let random = Math.floor(Math.random() * randomStart.length);
-        let r = randomStart[random];
+        let r = randomStart[random] + 1;
         let lyricArray = [];
 
-        var i = 1;
-
-        while (i <= 20) {
-            if (newLyrics[r + i].lyric != '*') {
+        for (var i = 0; i <= 10; i++) {
+            if (newLyrics[r + i].lyric !== '*') {
                 lyricArray.push(newLyrics[r + i].lyric);
-                i++;
             } else {
                 break;
             }

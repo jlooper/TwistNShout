@@ -3,7 +3,8 @@
     <Label class="action-bar" text="Twist and Shout"></Label>
     <ScrollView>
       <StackLayout class="card">
-        <Label class="title" textWrap="true">Shake it up, baby!</Label>
+        <Label class="title" text="Shake it up, baby!" />
+        <Label class="instructions" text="Shake your phone for a new lyric!" textWrap="true" />
         <StackLayout v-for="text in newLyric" :key="text">
           <Label class="lyric" textWrap="true" :text="text" />
         </StackLayout>
@@ -79,8 +80,16 @@ export default {
     }
   },
   created() {
-    //this.startAccelerometer();
-    this.getNewLyric();
+    this.startAccelerometer();
+    //toggle for testing
+    //this.getNewLyric();
   }
 };
 </script>
+
+<style scoped>
+.instructions {
+  font-weight: bold;
+  margin: 10;
+}
+</style>
