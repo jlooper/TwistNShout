@@ -23,7 +23,7 @@ export default {
     ...mapActions(["getLyric"])
   },
   created() {
-    this.getLyric("canon");
+    this.getLyric();
   }
 };
 </script>
