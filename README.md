@@ -31,7 +31,7 @@ Ensure that you have Android Studio and Xcode installed to run this app on mobil
 
 This cross-platform mobile app is built with [NativeScript-Vue](http://www.nativescript-vue.org), running custom machine learning models built for TensorFlow lite and running on your device with the Firebase plugin referenced above. Data is sourced from Wine Spectator magazine as discovered via Kaggle, and stored in Azure table storage. The data is discoverable via an API built with Azure functions.
 
-Fake lyrics were generated with [textgen-rnn](https://github.com/minimaxir/textgenrnn). Try your own versions [here](https://notebooks.azure.com/jennifer-looper/projects/beatles-generator). Learn more about Azure Notebooks [here](https://docs.microsoft.com/azure/notebooks/azure-notebooks-overview?WT.mc_id=devfestnantes-github-jelooper)
+Fake lyrics were generated with [textgen-rnn](https://github.com/minimaxir/textgenrnn). Try your own versions [here](https://notebooks.azure.com/jennifer-looper/projects/beatles-generator?WT.mc_id=academic-0000-jelooper). Learn more about Azure Notebooks [here](https://docs.microsoft.com/azure/notebooks/azure-notebooks-overview?WT.mc_id=academic-0000-jelooper)
 
 The slide deck explaining this project is [here](https://microsoft-cloud-advocates.slides.com/jenlooper/twistnshout)
 
